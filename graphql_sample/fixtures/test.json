@@ -1,0 +1,66 @@
+[
+    {
+        "model": "graphql_sample.User",
+        "pk": 1,
+        "fields": {
+            "username": "abemaru"
+        }
+    },
+    {
+        "model": "graphql_sample.User",
+        "pk": 2,
+        "fields": {
+            "username": "abemaru's wife"
+        }
+    },
+    {
+      "model": "graphql_sample.Item",
+      "pk": 1,
+      "fields": {
+        "name": "MacBook Pro 14",
+        "description": "Apple MacBook Pro with Retina Display. 1.8GHz Intel Core i7, Turbo Boost up to 3.2GHz, 32GB RAM, 512GB Flash Storage.",
+        "brand": "Apple",
+        "user": 1
+      }
+    },
+    {
+      "model": "graphql_sample.Item",
+      "pk": 2,
+      "fields": {
+        "name": "iphone 13 pro",
+        "description": "Apple iPhone 13 Pro 64GB. Fully unlocked. 256GB storage. Face ID.",
+        "brand": "Apple",
+        "user": 1
+      }
+    },
+    {
+        "model": "graphql_sample.Item",
+        "pk": 3,
+        "fields": {
+            "name": "Surface laptop",
+            "description": "Microsoft Surface Laptop with Touch ID. 12.3 Touchscreen, 8GB RAM, 256GB storage.",
+            "brand": "Microsoft",
+            "user": 2
+        }
+    },
+    {
+        "model": "graphql_sample.Item",
+        "pk": 4,
+        "fields": {
+            "name": "google pixel 5a",
+            "description": "Google Pixel 5a with Google Assistant. Android 10, 6GB RAM, 128GB storage.",
+            "brand": "Google",
+            "user": 2
+        }
+    },
+    {
+        "model": "graphql_sample.Item",
+        "pk": 5,
+        "fields": {
+            "name": "google pixel 6 pro",
+            "description": "Google Pixel 6 Pro with Google Assistant. Android 10, 6GB RAM, 256GB storage.",
+            "brand": "Google",
+            "user": 1
+        }
+    }
+  ]
