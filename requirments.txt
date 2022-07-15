@@ -1,0 +1,6 @@
+fastapi
+graphene
+uvicorn
+starlette
+SQLAlchemy
+graphene_sqlalchemy
