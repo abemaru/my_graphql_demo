@@ -14,8 +14,8 @@ class ItemType(DjangoObjectType):
 
 
 class Query(graphene.ObjectType):
-    user = graphene.Field(UserType, id=graphene.Int())
-    item = graphene.Field(ItemType, id=graphene.Int())
+    user = graphene.List(UserType, id=graphene.Int())
+    item = graphene.List(ItemType, id=graphene.Int())
 
     def resolve_user(self, info, **kwargs):
         return User.objects.all()
