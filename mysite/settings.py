@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'graphql_sample',
+    'django_filters'
 ]
 
 MIDDLEWARE = [

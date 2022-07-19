@@ -62,5 +62,15 @@
             "brand": "Google",
             "user": 1
         }
+    },
+    {
+        "model": "graphql_sample.Item",
+        "pk": 6,
+        "fields": {
+          "name": "iphone 7",
+          "description": "Apple iPhone 7 64GB.Touch ID.",
+          "brand": "Apple",
+          "user": 2
+        }
     }
   ]
